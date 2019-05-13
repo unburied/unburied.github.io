@@ -16,7 +16,7 @@ baseurl: ""
 # Name of website
 title: David Martinez
 # Short description of your site
-description: "Smart don't come out of books, kid. Smart is making the right decision at the right time."
+description: Aspiring Data Scientist
 
 # --- Navigation bar options --- #
 
@@ -54,7 +54,7 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-# navbar-img: "/img/bgimage.png"
+# navbar-### "Smart don't come out of books, kid. Smart is making the right decision at the right time."
 # footer-img: "/img/bgimage.png"
 # page-img: "/img/bgimage.png"
 
