@@ -23,10 +23,7 @@ description: Aspiring Data Scientist
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+  Resources: "resouorces"
   Author's home: "https://unburied.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -45,10 +42,10 @@ navbar-col: "#F6F5F5"
 navbar-text-col: "#3bb4c1"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
-link-col: "#008AFF"
+link-col: "#3bb4c1"
 hover-col: "#0085A1"
 footer-col: "#51F3FF"
-footer-text-col: "#3bb4c1"
+footer-text-col: "#808080"
 footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
