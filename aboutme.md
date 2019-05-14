@@ -1,16 +1,18 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: "Smart don't come out of books, kid. Smart is making the right decision at the right time."
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+### My History
+Hi, my name is David Martinez. I live in the Greater Philidelphia area with area with my wife beautiful daughter. I am a Data Scientist 🦄 and am currently working on completing my DS curriculum with Lambda School. My career in programming began with C++ and Java, but after being introduced to Python, I fell in love. My main interest in Data Science is centered around the utilization of machine learning to solve complex problems. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### Interests
+* Polotics
+* Self-Improvement
+* Philosophy
+* TCG's
+* STEM
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Goal
+My focus is to help organizations make better use of their data by building models to extract valuable insights, which will empower mangement to make well informed, results driven decisions. 
