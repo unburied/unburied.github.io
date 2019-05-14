@@ -55,7 +55,7 @@ footer-link-col: "#404040"
 # instead of colour
 
 navbar-img: "https://cdn-images-1.medium.com/max/2600/1*fEf_Hs24G9SVQ6BKdSVxVQ.jpeg"
-navbar- "Smart don't come out of books, kid. Smart is making the right decision at the right time."
+# "Smart don't come out of books, kid. Smart is making the right decision at the right time."
 footer-img: "/https://amp.businessinsider.com/images/56cf6cfbdd08953a178b4648-960-641.jpg"
 # page-img: "/img/bgimage.png"
 
