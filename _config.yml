@@ -51,8 +51,8 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-navbar-img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2012_Ben_Franklin_Bridge_and_Race_Street_Pier.jpg/1200px-2012_Ben_Franklin_Bridge_and_Race_Street_Pier.jpg"
-footer-bigimg: "https://cdn-images-1.medium.com/max/2600/1*fEf_Hs24G9SVQ6BKdSVxVQ.jpeg"
+navbar-bigimg: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2012_Ben_Franklin_Bridge_and_Race_Street_Pier.jpg/1200px-2012_Ben_Franklin_Bridge_and_Race_Street_Pier.jpg"
+footer-img: "https://cdn-images-1.medium.com/max/2600/1*fEf_Hs24G9SVQ6BKdSVxVQ.jpeg"
 #page-img: 
 
 # --- Footer options --- #
