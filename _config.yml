@@ -28,7 +28,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaU1v8VCoMWCK-HXuSGjCJ4Zj8X2nBE1sAYdgoPEvNGtNFSvXR_Q"
+avatar: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwixyeicspziAhWOl-AKHYn7C4wQjRx6BAgBEAU&url=https%3A%2F%2Fwww.maxpixel.net%2FFinance-Data-Graph-Icon-Pie-Chart-Business-2579310&psig=AOvVaw3xqFLeQuWzJVvkyOxcRNCn&ust=1557970362643668"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -51,7 +51,7 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-#navbar-bigimg: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2012_Ben_Franklin_Bridge_and_Race_Street_Pier.jpg/1200px-2012_Ben_Franklin_Bridge_and_Race_Street_Pier.jpg"
+#navbar-bigimg: 
 footer-img: "https://cdn-images-1.medium.com/max/2600/1*fEf_Hs24G9SVQ6BKdSVxVQ.jpeg"
 #page-img: 
 
