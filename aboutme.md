@@ -9,7 +9,6 @@ Hi, my name is David Martinez. I live in the Greater Philidelphia area with my w
 
 ### Interests
 * Politics
-* Self-Improvement
 * Philosophy
 * TCG's
 * STEM
