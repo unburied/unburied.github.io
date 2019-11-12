@@ -8,5 +8,5 @@ Are politics becoming more polarized? I attempt to answer this question using co
 [Check out the Post!](https://medium.com/p/6542ea75991b/edit)
 
 
-[Link to Code:](https://colab.research.google.com/drive/1A-BFDPZjZc_tVhZcniwYUkx72XKzqzRF)
+[Link to Code](https://colab.research.google.com/drive/1A-BFDPZjZc_tVhZcniwYUkx72XKzqzRF)
 
