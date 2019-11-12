@@ -9,4 +9,4 @@ have an opportunity to dive into a problem that offers even more difficulty, har
 Since it is so rare for the drives to fail, anomaly detection will be our *modus operandi*.
 This will allow us to offer the probability that a particular hard drive will fail. 
 
-Check out the story here: https://medium.com/@davi86m/detecting-anomalies-that-lead-to-hard-drive-failure-75ef268aef08
+[Check out the story](https://medium.com/@davi86m/detecting-anomalies-that-lead-to-hard-drive-failure-75ef268aef08)
