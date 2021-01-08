@@ -1,0 +1,41 @@
+
+---
+layout: post
+title: My Labs Experience
+--- 
+
+
+###Hitting the Road
+
+Although 2020 is behind us, that still a lot of unknown territory to navigate. That is why I was happy to be part of a project that was focused on finding the best route there. Resfeber is an app with the ambition of helping users plan trips and arming them with information on costs, points of interests, and most importantly, Covid statistics. The last part is what really sets us apart and would prove to be one of the more challenging aspects of this project.
+
+Traveling anywhere at this time seems like a forgone thought. Where would you go, and how would you get there? Sure, it’s easy enough to choose a destination. But then what?  Are you going to book a flight? Not many people want to sit in a closed container for a few hours to take a trip, given the situation. Instead, this seems like the perfect time to take a road trip. Drive across our great nation and take in the scenery, all from the safety of your vehicle. 
+
+Great, we have a destination in mind, but are we sure it’s even safe to go there. I’m safe in my car, but what are the current Covid numbers of that location? Are they heating up, or has it been under control?
+
+Finally, I’d need to book a room, and get an estimate on all my costs. This is exactly what Resfeber was built for. A one stop to find a destination, book a room, and get covid data with just a few clicks. Built with ease in mind to give you the most up to date information to ensure you make the best decision for your next trip.
+
+Resfeber was built with the goal of helping families get out of the house and into the sun. They can feel safe knowing they are making an informed decision and mitigates risks. It was not an easy problem to sole, but definitely one that needed to be addressed. 
+
+This required being able to find the most up to date data on gas prices, Airbnb costs, and most importantly, up to date covid data. Our data team worked to source this information and created models that delivers exactly what the users need. Meanwhile, our web team developed user friendly interface that allows users to log in, plan and save trips, and even flag locations for future travel. The last stop on our product roadmap was getting the API’s connected, and once they were plugged in, Resfeber was born. 
+
+
+###Bumpy Ride
+
+The road to Resfeber was not smooth by any stretch. Sourcing the data proved to be difficult. There were many data sets available. But we wanted to give users the most up to date information possible, and any dataset we used would quickly expire. Gas pricing and lodging were slightly easier to address. Using historical data, our team build models to estimate pricing with reasonable accuracy. However, with covid, even our best agencies are having issues making solid predictions. I felt it would be best to get this data from the source, daily. 
+
+I set out to the CDC site, and found that states quite reliably update their current numbers, you guessed it, daily. This was perfect! I found exactly the data I needed, now how to access it. The CDC has an api that uses the Socrata library. It is very similar to SQL with a few slight differences in the syntax. It was a bit challenging at first, but after some deep digging, I found it easy to interface with python to set up queries to get it up and running. Now, ideally, we would use custom queries to access the data specific to each user request, which would allow more efficiency. Unfortunately, this is necessarily possible with python. Instead, I pulled only the most recent data for each state, then based on the user’s preferences, filtered the data down.  You can see the code outlined below.
+
+From here, my team set up the API for our web team to access the data and deliver to the user. The only other issue we found is the data with regards to Airbnb was severely limited.  Our model was producing results that more out of range than we would like to supply to the user. Given the limitations in time and data, the best approach found was to present the predicted costs in quartiles. This allows users to see the range of estimated costs for an Airbnb in any given location; from higher end locations, to moderate and cost friendly estimates. 
+
+I was grateful these and other challenges we faced. They encouraged myself and my team to galvanize through solid communication, deep diving into new (for us) technologies, and decisiveness. 
+
+
+###The Road Ahead
+
+To date, Resfeber will allow you create an account, and begin planning a trip. Once you choose a destination, you will be able to see that location on an interactive map. After you plan for the location, you can add the number of people and preferred room type to get estimated costs on gas and lodging. You will also get the most recent case count for the state in which you plan to travel, along with a color-coded map with categories ranging from green (low count) to red (high count) to assist in the decision to travel. 
+
+In the future, I’d like to see a completely interactive covid map that will show the same color-coded scheme but allows users to select their location based on the covid data, instead the information being provided after the fact. Further, linking to hotel reservation and updated gas price API would also be areas for Resfeber to grow. 
+
+Again, I was happy for a lot of the challenges experienced on this project. I learned that I should be a bit more outspoken on some of my ideas, but also felt that I was a valued member of the team. Resfeber helped identify my abilities to work on a technical team with varying skills and personalities. I believe this certainly one of the most important skills one could have when working in this industry. While I have plenty of room for growth, I am confident that I would be an asset to any team I am fortunate to find myself a part of. 
+
