@@ -30,7 +30,7 @@ From here, my team set up the API for our web team to access the data and delive
 
 I was grateful these and other challenges we faced. They encouraged myself and my team to galvanize through solid communication, deep diving into new (for us) technologies, and decisiveness. 
 
-
+```
 import pandas as pd
 import datetime
 from sodapy import Socrata
@@ -52,6 +52,7 @@ results = client.get("9mfq-cb36", query = q)
 
 # Convert to pandas DataFrame
 df = pd.DataFrame.from_records(results)
+```
 
 ###The Road Ahead
 
